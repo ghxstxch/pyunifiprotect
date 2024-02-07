@@ -899,6 +899,20 @@
         
           
         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       </ul>
     </nav>
   
@@ -1955,6 +1969,20 @@
   
     <nav class="md-nav" aria-label="Camera">
       <ul class="md-nav__list">
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
         
           
         
@@ -4876,6 +4904,51 @@ May have unexpected side effects.</p>
 
 
 
+<h4 id="pyunifiprotect.data.Camera.is_animal_currently_detected" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">is_animal_currently_detected</span><span class="p">:</span> <span class="nb">bool</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
+  </span>
+
+<a href="#pyunifiprotect.data.Camera.is_animal_currently_detected" class="headerlink" title="Permanent link">&para;</a></h4>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Is animal currently being detected</p>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+
+<h4 id="pyunifiprotect.data.Camera.is_animal_detection_on" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">is_animal_detection_on</span><span class="p">:</span> <span class="nb">bool</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
+  </span>
+
+<a href="#pyunifiprotect.data.Camera.is_animal_detection_on" class="headerlink" title="Permanent link">&para;</a></h4>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Is Animal Detection available and enabled (camera will produce package smart
+detection events)?</p>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+
 <h4 id="pyunifiprotect.data.Camera.is_audio_currently_detected" class="doc doc-heading">
           <code class="highlight language-python"><span class="n">is_audio_currently_detected</span><span class="p">:</span> <span class="nb">bool</span></code>
   
@@ -5347,6 +5420,28 @@ detection events)?</p>
 
 
 
+<h4 id="pyunifiprotect.data.Camera.is_person_tracking_enabled" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">is_person_tracking_enabled</span><span class="p">:</span> <span class="nb">bool</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
+  </span>
+
+<a href="#pyunifiprotect.data.Camera.is_person_tracking_enabled" class="headerlink" title="Permanent link">&para;</a></h4>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Is person tracking enabled</p>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+
 <h4 id="pyunifiprotect.data.Camera.is_recording_enabled" class="doc doc-heading">
           <code class="highlight language-python"><span class="n">is_recording_enabled</span><span class="p">:</span> <span class="nb">bool</span></code>
   
@@ -5564,6 +5659,50 @@ detection events)?</p>
   
       <p>Is Vehicle Detection available and enabled (camera will produce vehicle smart
 detection events)?</p>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+
+<h4 id="pyunifiprotect.data.Camera.last_animal_detect" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">last_animal_detect</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">datetime</span><span class="p">]</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
+  </span>
+
+<a href="#pyunifiprotect.data.Camera.last_animal_detect" class="headerlink" title="Permanent link">&para;</a></h4>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Get the last animal smart detection event.</p>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-attribute">
+
+
+
+
+<h4 id="pyunifiprotect.data.Camera.last_animal_detect_event" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">last_animal_detect_event</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Event</span><span class="p">]</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-property"><code>property</code></small>
+  </span>
+
+<a href="#pyunifiprotect.data.Camera.last_animal_detect_event" class="headerlink" title="Permanent link">&para;</a></h4>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Get the last animal smart detection event.</p>
   </div>
 
 </div>
@@ -6374,6 +6513,30 @@ blocking: Awaits stream completion and logs stdout/stderr
 
 
 
+<h4 id="pyunifiprotect.data.Camera.set_animal_detection" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">set_animal_detection</span><span class="p">(</span><span class="n">enabled</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-async"><code>async</code></small>
+  </span>
+
+<a href="#pyunifiprotect.data.Camera.set_animal_detection" class="headerlink" title="Permanent link">&para;</a></h4>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Toggles animal smart detection. Requires camera to have smart detection</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
 <h4 id="pyunifiprotect.data.Camera.set_baby_cry_detection" class="doc doc-heading">
           <code class="highlight language-python"><span class="n">set_baby_cry_detection</span><span class="p">(</span><span class="n">enabled</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span></code>
   
@@ -6891,6 +7054,30 @@ blocking: Awaits stream completion and logs stdout/stderr
   <div class="doc doc-contents ">
   
       <p>Toggles person smart detection. Requires camera to have smart detection</p>
+
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+
+<h4 id="pyunifiprotect.data.Camera.set_person_track" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">set_person_track</span><span class="p">(</span><span class="n">enabled</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span></code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-async"><code>async</code></small>
+  </span>
+
+<a href="#pyunifiprotect.data.Camera.set_person_track" class="headerlink" title="Permanent link">&para;</a></h4>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Sets person tracking on camera</p>
 
   </div>
 
