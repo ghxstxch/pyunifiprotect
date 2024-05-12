@@ -1,5 +1,7 @@
 # Unofficial UniFi Protect Python API and CLI
 
+Fork created due to code owner's desire to close out other projects and lack of understanding of MIT licensing/open-source.
+
 [![Latest PyPI version](https://img.shields.io/pypi/v/pyunifiprotect)](https://pypi.org/project/pyunifiprotect/) [![Supported Python](https://img.shields.io/pypi/pyversions/pyunifiprotect)](https://pypi.org/project/pyunifiprotect/) [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![CI](https://github.com/AngellusMortis/pyunifiprotect/actions/workflows/ci.yaml/badge.svg)](https://github.com/AngellusMortis/pyunifiprotect/actions/workflows/ci.yaml) [![Documentation](https://github.com/AngellusMortis/pyunifiprotect/actions/workflows/pages/pages-build-deployment/badge.svg)](https://angellusmortis.github.io/pyunifiprotect/)
 
 `pyunifiprotect` is an unofficial API for UniFi Protect. There is no affiliation with Ubiquiti.
